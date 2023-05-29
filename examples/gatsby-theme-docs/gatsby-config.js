@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
+    siteTitle: `Подготовка к собеседыванию на front-end разработчика`,
+    defaultTitle: `Подготовка к собеседыванию на front-end разработчика`,
+    siteTitleShort: `Front-end`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
-    siteAuthor: `@jpedroschmitz`,
+    siteUrl: `https://docs-sigma-green.vercel.app`,
+    siteAuthor: `@annaserba`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `ru`,
     themeColor: `#8257E6`,
     basePath: `/`,
   },
@@ -19,7 +19,7 @@ module.exports = {
         docsPath: `src/docs`,
         homePath: `src/home`,
         yamlFilesPath: `src/yamlFiles`,
-        repositoryUrl: `https://github.com/jpedroschmitz/rocketdocs`,
+        repositoryUrl: `https://github.com/annaserba/docs`,
         baseDir: `examples/gatsby-theme-docs`,
         gatsbyRemarkPlugins: [],
       },
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocket Docs`,
-        short_name: `Rocket Docs`,
+        name: `Front-end`,
+        short_name: `Front-end`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://docs-sigma-green.vercel.app`,
       },
     },
     `gatsby-plugin-offline`,

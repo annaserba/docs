@@ -1,24 +1,33 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: 'Основы web'
+  link: '/base/web'
+- label: Javascript
+  link: '/front-end/javascript'
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Customizing'
-      link: '/usage/customizing'
-    - label: 'Using YAML files'
-      link: '/usage/using-yaml-files'
-    - label: 'Remark Plugins'
-      link: '/usage/remark-plugins'
-- label: More
+    - label: 'Теория JS'
+      link: '/front-end/javascript/about'
+    - label: 'Синтаксис JS'
+      link: '/front-end/javascript'
+    - label: 'Асинхронный JS'
+      link: '/front-end/javascript/async'  
+- label: Задачи Javascript
+  items:  
+   - label: 'LeedCode'
+     link: '/tasks/leedcode'  
+- label: 'React'
   items:
-    - label: FAQ
-      link: /faq
-    - label: 'Github'
-      link: https://github.com/jpedroschmitz/rocketdocs
+    - label: 'Теория React'
+      link: '/front-end/react'
+    - label: 'Хуки'
+      link: '/front-end/react/hooks'    
+- label: 'TypeScript'
+  items:
+  - label: 'Вопросы TypeScript'
+    link: '/front-end/typescript'
+- label: Больше
+  items:
+    - label: 'SOLID'
+      link: '/more/solid'
+    - label: 'UI/UX'
+      link: '/more/ui-ux'

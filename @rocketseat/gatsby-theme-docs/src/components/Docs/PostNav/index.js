@@ -13,7 +13,7 @@ export default function Docs({ prev, next }) {
           <Link to={prev.link}>
             <MdKeyboardArrowLeft />
             <div>
-              <p>Prev</p>
+              <p>Предыдущий</p>
               <h3>{prev.label}</h3>
             </div>
           </Link>
@@ -23,7 +23,7 @@ export default function Docs({ prev, next }) {
         <Post>
           <Link to={next.link}>
             <div>
-              <p>Next</p>
+              <p>Следущий</p>
               <h3>{next.label}</h3>
             </div>
             <MdKeyboardArrowRight />

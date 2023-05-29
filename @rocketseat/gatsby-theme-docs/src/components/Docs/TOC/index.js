@@ -59,11 +59,11 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
     return (
       <Wrapper>
         <Container>
-          <h2>On this page</h2>
+          <h2>На этой странице</h2>
           <nav>
             <ul>
               {headings
-                .filter((heading) => heading.depth === 2 || heading.depth === 3)
+                .filter((heading) => heading.depth !== 3)
                 .map((heading) => {
                   const headingSlug = slug(heading.value);
 
@@ -71,7 +71,7 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
                     <li
                       key={heading.value}
                       style={{
-                        marginLeft: heading.depth === 3 ? `8px` : null,
+                        marginLeft: heading.depth === 2 ? `8px` : null,
                       }}
                     >
                       <a
