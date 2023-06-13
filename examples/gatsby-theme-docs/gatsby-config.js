@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Подготовка к собеседыванию на front-end разработчика`,
     siteTitleShort: `Front-end`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://docs-sigma-green.vercel.app`,
+    siteUrl: `https://www.learn-front-end.ru`,
     siteAuthor: `@annaserba`,
     siteImage: `/banner.png`,
     siteLanguage: `ru`,
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://docs-sigma-green.vercel.app`,
+        siteUrl: `https://www.learn-front-end.ru`,
       },
     },
     `gatsby-plugin-offline`,
