@@ -1,6 +1,6 @@
 ---
 title: Синтаксис Javascript
-description: Мультипарадигменный язык программирования
+description: Вопросы для собеседывания на позицию front-end разработчика. Javascript
 ---
 
 ## `var`

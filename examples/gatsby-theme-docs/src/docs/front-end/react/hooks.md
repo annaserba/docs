@@ -54,8 +54,6 @@ useEffect(() => {
 
 `useContext`— это React Hook, который позволяет вам читать и подписываться на [контекст](https://react.dev/learn/passing-data-deeply-with-context) вашего компонента.
 
-![Untitled](%D0%A5%D1%83%D0%BA%D0%B8%2008fd7853ef874b72a39ab3cf5454b7f2/Untitled.png)
-
 ```tsx
 const value = useContext(SomeContext)
 ```
@@ -68,8 +66,6 @@ const value = useContext(SomeContext)
 - чтобы избежать повторных рендеров, разделите свой контекст – используйте ThemeContext и AppContext.
 
 # **useReducer**
-
-![Untitled](%D0%A5%D1%83%D0%BA%D0%B8%2008fd7853ef874b72a39ab3cf5454b7f2/Untitled%201.png)
 
 Reducer – это событие, которое будет выполнено, чтобы получить только одно значение. Возвращаемое значение может быть числом, строкой, массивом или даже объектом, если это оно единственное. Кроме того, reducer возвращают новое значение, а не мутируют начальное.
 
