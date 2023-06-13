@@ -31,28 +31,10 @@ export default function Layout({
         <Sidebar isMenuOpen={isMenuOpen} />
         <Main>
           <Header handleMenuOpen={handleMenuOpen} />
-          {title && (
-            <h1
-              css={css`
-                display: none;
-
-                @media (max-width: 1200px) {
-                  display: block;
-                }
-              `}
-            >
-              {title}
-            </h1>
-          )}
+          
           <Children ref={contentRef}>
             {title && (
-              <h1
-                css={css`
-                  @media (max-width: 1200px) {
-                    display: none;
-                  }
-                `}
-              >
+              <h1>
                 {title}
               </h1>
             )}
