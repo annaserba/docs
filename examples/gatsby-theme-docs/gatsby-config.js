@@ -42,6 +42,16 @@ module.exports = {
        trackingId: `G-TG3PHD5RE5`,
       },
     },
+    {
+       resolve: `gatsby-plugin-yandex-metrika`,
+       options: {
+        trackingId: 93957160,
+        webvisor: true,
+        trackHash: true,
+        afterBody: true,
+        defer: false,
+      },
+    },
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
