@@ -51,7 +51,7 @@ let user;
 
 Кроме встроенных типов данных, в JavaScript также есть специальный тип данных `NaN` (Not a Number), который возникает, когда производятся нечисловые операции с числами, и тип данных `BigInt`, который используется для работы с числами, превышающими максимальное значение типа `Number`
 
-### `[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)`
+### [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 коллекция пар ключ-значение.
  Объект содержит пары ключ-значение и запоминает первоначальный порядок вставки ключей. Любое значение (как объекты, так и примитивные значения) может использоваться либо как ключ, либо как значение.
@@ -65,7 +65,7 @@ map1.size;
 map1.delete('key');
 ```
 
-### `[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)`
+### [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
 коллекция уникальных значений, так называемое «множество».
 
@@ -256,7 +256,6 @@ arr.sort(function(a, b) {
 есть проблема с [потерей контекста](https://learn.javascript.ru/bind#poterya-this)
 
 > что бы избежать проблем с `this`, нужно вообще не использовать `this`
-> 
 
 ## Closure
 
